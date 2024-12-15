@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>Tourist - Travel Agency HTML Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css" rel="stylesheet" />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+            <span class="sr-only">Loading...</span>
+        </div>
+    </div>
+    <!-- Spinner End -->
+
+
+    <!-- Topbar Start -->
+    <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+        <div class="row gx-0">
+            <div class="col-lg-8 text-center text-lg-start mb-2 mb-lg-0">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+
+                    <small class="text-light"><i class="fa fa-envelope-open me-2"></i>info@example.com</small>
+                </div>
+            </div>
+            <div class="col-lg-4 text-center text-lg-end">
+                <div class="d-inline-flex align-items-center" style="height: 45px;">
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-twitter fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-facebook-f fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-linkedin-in fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle me-2" href=""><i class="fab fa-instagram fw-normal"></i></a>
+                    <a class="btn btn-sm btn-outline-light btn-sm-square rounded-circle" href=""><i class="fab fa-youtube fw-normal"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar End -->
+
+
+
+    <!-- Navbar & Hero Start -->
+    <div class="container-fluid position-relative p-0">
+        <nav class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+            <a href="" class="navbar-brand p-0">
+                <h1 class="text-primary m-0"> <img src="img/Logo-avant-finalPE-branca.png" alt=""></h1>
+                <!-- <img src="img/logo.png" alt="Logo"> -->
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto py-0">
+                    <a href="index.html" class="nav-item nav-link  ">Inicio</a>
+
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Quem Somos</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="noticias.html" class="dropdown-item">Notícias</a>
+                            <a href="acoes.html" class="dropdown-item">Ações</a>
+                        </div>
+                    </div>
+                     
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nossos Serviços</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="consultoriaviagem.html" class="dropdown-item">Consultoria Viagem</a>
+                            <a href="passeiosempernambuco.html" class="dropdown-item">Passeios em Pernambuco</a>
+                            <a href="roteirosprivativos.html" class="dropdown-item">Roteiros Privativos</a>
+                            <a href="roteiroscriativos.html" class="dropdown-item">Roteiros Criativo</a>
+                            <a href="passagemaerea.html" class="dropdown-item">Passagem Área</a>
+                            <a href="seguroviagem.html" class="dropdown-item">Seguro Viagem</a>
+                            <a href="locacaodecarro.html" class="dropdown-item">Locação de Carros</a>
+                        </div>
+                    </div>
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Nossas Agendas </a>
+                        <div class="dropdown-menu m-0">
+                            <a href="programacao2023.html" class="dropdown-item">Programação 2023</a>
+                            <a href="programacao2024.html" class="dropdown-item">Programação 2024</a>
+                         
+                        </div>
+                    </div>
+                    <a href="nossasvivencias.html" class="nav-item nav-link">Nossas Vivências </a>
+                    <a href="contato.html" class="nav-item nav-link">Contato</a>
+                </div>
+            </div>
+        </nav>
+
+        <div class="container-fluid bg-primary py-5 mb-5 hero-header">
+            <div class="container py-5">
+                <div class="row justify-content-center py-5">
+                    <div class="col-lg-10 pt-lg-5 mt-lg-5 text-center">
+                        <h1 class="display-3 text-white animated slideInDown">Nossas Notícias </h1>
+                        <nav aria-label="breadcrumb">
+                            
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar & Hero End -->
+
+
+
+    <!-- Package Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                <h6 class="section-title bg-white text-center text-primary px-3"></h6>
+                <h1 class="mb-5">Noticias</h1>
+            </div>
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 1.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">3° Prêmio Pernambuco de Turismo</h4>
+                            <p>Tivemos a alegria de sermos premiados como a Melhor Agência de Viagens de Pernambuco, também fomos premiados com os 2 melhores roteiros de Turismo criativo de Pernambuco.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 2.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Agência Avant Turismo conhece Igrejinha de Lagoa de Pedra em Brejo da Madre de Deus</h4>
+                            <p>Um dos pontos mais visitados em Brejo da Madre de Deus, agreste de Pernambuco, tem sido a Igrejinha de Lagoa de Pedra na zona rural do município. A Avant Turismo PE, agência de viagens localizada em Recife/PE, formada por uma família que ama viajar, tem conhecido novos lugares e montar novos roteiros aos seus clientes.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 3.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">3° Prêmio Pernambuco de Turismo</h4>
+                            <p>Em 14 de Dezembro de 2021, foi mais um dia memorável, não só para Avant Turismo PE mas, para todos que que participaram desse Prêmio importantíssimo para o Turismo em PE.
+                                Ter o reconhecimento de todo o trabalho que estamos fazendo em Pernambuco ficamos lisonjeados por termos chegado até o 2° lugar nas categorias de Agência de Viagens e de Turismo Criativo atuando junto com o Turismo Rural.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Package End -->
+
+
+    <!-- Package Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+          
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 4.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Agrinordeste 2021 - PE</h4>
+                            <p>Participamos da 28º Agrinordeste com  três estandes, apresentando três roteiros pernambucanos: Descubra a Serra do Pará, em Santa Cruz do Capibaribe; Os Encantos de Lagoa do Carro e Paudalho Cultural. O trabalho foi reconhecido com um entrevista publicada no site do ministério do turismo.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 5.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">XI Semana do Turismo da Fatec - SP</h4>
+                            <p>Palestra sobre Turismo Criativo em PE no dia 27/05 na XI Semana do Turismo da Fatec - SP.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 6.jpg" alt="">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Evento TurisBOSSlogas: liderança feminina do Turismo</h4>
+                            <p>Participação da mesa redonda no dia 19/09 falando sobre "O Turismo Digital e as inovações no mercado de viagens"</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Package End -->
+
+  
+    <!-- Package Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 7.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Citação como case de sucesso na Universidade Portucalense, Porto - Portugal</h4>
+                            <p>Citação como case de sucesso feita pela Aluna: Ana Castro em março de 2021 na Universidade Portucalense, Porto - Portugal.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 8.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">FINCC DIGITAL - Feira Internacional de Negócios Criativos e Colaborativos.</h4>
+                            <p>Participaremos da FINCC - Feira Internacional de Negócios Criativos e Colaborativos. Uma feira 100% digital que ocorrerá do dia 05 ao dia 08/05/21</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 9].jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Rodada de Negócios com a ABAV</h4>
+                            <p>Participação no evento Rodada de Negócios Turismo Criativo, realizado pela ABAV no dia 16 e 18 de março de 2021. Apresentação de um roteiro exclusivo em PE.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Package End -->
+
+        <!-- Package Start -->
+        <div class="container-xxl py-5">
+            <div class="container">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                        <div class="package-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="img/Notícia avant 10.jpg" alt="img">
+                            </div>
+                            <div class="d-flex border-bottom">
+                            </div>
+                            <div class="text-center p-4">
+                                <h4 style="color: rgb(0, 83, 139);">Entrevista na Rádio 104FM</h4>
+                                <p>Entrevista na Rádio 104FM em Bezerros sobre Turismo na pandemia.</p>
+                                <div class="d-flex justify-content-center mb-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="package-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="img/Notícia avant 11.jpg" alt="img">
+                            </div>
+                            <div class="d-flex border-bottom">
+                            </div>
+                            <div class="text-center p-4">
+                                <h4 style="color: rgb(0, 83, 139);">Moda e Negócios </h4>
+                                <p>Matéria sobre a retomado do turismo (Página 26) - 32° edição.</p>
+                                <div class="d-flex justify-content-center mb-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <div class="package-item">
+                            <div class="overflow-hidden">
+                                <img class="img-fluid" src="img/Notícia avant 12.jpg" alt="img">
+                            </div>
+                            <div class="d-flex border-bottom">
+                            </div>
+                            <div class="text-center p-4">
+                                <h4 style="color: rgb(0, 83, 139);">Prêmio Carvalhos Consultorias</h4>
+                                <p>Prêmio como melhor agente de turismo de 2020, promovido pela Carvalhos Consultorias e apoio da ABBTURSE.</p>
+                                <div class="d-flex justify-content-center mb-2">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Package End -->
+
+    <!-- Package Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 13.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Palestra no seminário Internacional</h4>
+                            <p>Palestra sobre a Recria Brasil dia 25/11/2020.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 14.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Matéria no Jornal do Comércio</h4>
+                            <p>Matéria para o jornal do comercio dia 26/09/2020.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 15.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Live Turismo Criativo</h4>
+                            <p>Bate papo com Augusto Correia do @marketingnoturismo (SP).</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Package End -->
+
+
+    <!-- Package Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-4 justify-content-center">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 16.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Ruraltur Digital</h4>
+                            <p>Evento promovido pelo SEBRAE-PB de 01 à 04 de Setembro de 2020.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 17.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Live Recife Criativo</h4>
+                            <p>Bate papo sobre Recife Criativo junto com @criatur_ Petrolina.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="package-item">
+                        <div class="overflow-hidden">
+                            <img class="img-fluid" src="img/Notícia avant 18.jpg" alt="img">
+                        </div>
+                        <div class="d-flex border-bottom">
+                        </div>
+                        <div class="text-center p-4">
+                            <h4 style="color: rgb(0, 83, 139);">Encontro de negócios Masterop</h4>
+                            <p>Participação no evento realizado em Maceió -AL de 12 à 15 de março de 2020.</p>
+                            <div class="d-flex justify-content-center mb-2">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Package End -->
+
+     <!-- Footer Start -->
+     <div class="container-fluid bg-dark text-light footer pt-5 mt-5 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-lg-3 col-md-5">
+                    <h4 class="text-white mb-3">Informações</h4>
+                    <a class="btn btn-link" href="quemsomos.html">Quem Somos</a>
+                    <a class="btn btn-link" href="passeiosempernambuco.html">Nossos Serviços</a>
+                    <a class="btn btn-link" href="programacao2024.html">Nossas Agenda</a>
+                    <a class="btn btn-link" href="nossasvivencias.html">Nossa Vivência</a>
+                    <a class="btn btn-link" href="contato.html">Contato</a>
+                </div>
+                <div class="col-lg-3 col-md-5">
+                    <h4 class="text-white mb-3">Contato</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Pernambuco - Brasil</p>
+                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>81 9 9887-9387</p>
+                    <p class="mb-2"></i>contato@avantturismope.com.br</p>
+                    <div class="d-flex pt-2">
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
+        
+                    </div>
+                </div>
+                 
+                <div class="col-lg-3 col-md-5">
+                    <h4 class="text-white mb-3">Novidades</h4>
+                    <p>Enviem o seu e-mail para recer novidades da Avant Turismo</p>
+                    <div class="position-relative mx-auto" style="max-width: 400px;">
+                        <input class="form-control border-primary w-100 py-3 ps-4 pe-5" type="text" placeholder="Seu email">
+                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">Enviar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="copyright">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        &copy;Avant Turismo PE - Guiando você a momentos inesquecíveis
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End -->
+
+
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script src="lib/tempusdominus/js/moment.min.js"></script>
+    <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
+    <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
